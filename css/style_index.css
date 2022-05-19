@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bandeja{
+    border-radius: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-image: linear-gradient(#30023c,#510365,#6f0c88);
+    display: grid;
+    grid-template: repeat(12,1fr);
+    grid-template-areas: 
+        "card-1 card-1 card-1 card-1 card-1 card-2 card-2 card-2 card-2 card-2 card-2 card-2"
+        "card-3 card-3 card-3 card-3 card-3 card-3 card-3 card-3 card-3 card-3 card-3 card-3"
+        "card-4 card-4 card-4 card-4 card-4 card-4 card-4 card-4 card-4 card-4 card-4 card-4"
+        "card-5 card-5 card-5 card-5 card-5 card-5 card-5 card-5 card-5 card-5 card-5 card-5"
+        "card-6 card-6 card-6 card-6 card-6 card-6 card-6 card-6 card-6 card-6 card-6 card-6"
+        "card-7 card-7 card-7 card-7 card-7 card-7 card-7 card-7 card-7 card-7 card-7 card-7"
+        "card-8 card-8 card-8 card-8 card-8 card-8 card-8 card-8 card-8 card-8 card-8 card-8"
+        "card-9 card-9 card-9 card-9 card-9 card-9 card-9 card-9 card-9 card-9 card-9 card-9"
+        "card-10 card-10 card-10 card-10 card-10 card-10 card-10 card-10 card-10 card-10 card-10 card-10";
+}
+
+.item-1{
+    grid-area: card-1;
+    display:flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.item-2{
+    grid-area: card-2;
+    padding-left: 100px;
+}
+
+.item-3{
+    grid-area: card-3;
+    display: flex;
+    justify-content: center;
+
+}
+
+.item-4{
+    grid-area: card-4;
+    background-color: white;
+    color: white;
+}
+
+.item-5{
+    grid-area: card-5;
+    display: flex;
+    justify-content: right;   
+    color: white;
+}
+
+.item-6{
+    grid-area: card-6;
+    height: 150px;
+    color: white;
+}
+
+.item-7{
+    grid-area: card-7;
+    height: 150px;
+    color: white;
+}
+
+.item-8{
+    grid-area: card-8;
+    height: 150px;
+    color: white;
+}
+
+.item-9{
+    grid-area: card-9;
+    height: 150px;
+    color: white;
+}
+
+.item-10{
+    grid-area: card-10;
+    background-color: white;
+    color: black;
+}
+
+#logo{
+    height: 90px;
+}
+
+#boton_call{
+    position: relative;
+    left:0%;
+    top:50%;
+    transform:translate(0,-50%);
+}
+
+h1{
+    padding-top: 10px;
+    font-family: 'Roboto', cursive;
+    color: white;
+    display: flex;
+    text-align: center;
+}
+
+h2{
+    padding-top: 10px;
+    font-family: 'Roboto', cursive;
+    color: black;
+    display: flex;
+    text-align: center;
+}
+
+h3{
+    padding-top: 10px;
+    font-family: 'Roboto', cursive;
+    display: flex;
+    text-align: center;
+}
+
