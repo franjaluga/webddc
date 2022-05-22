@@ -12,27 +12,29 @@
     display: grid;
     grid-template: repeat(12,1fr);
     grid-template-areas: 
-        "card-1 card-1 card-1 card-1 card-1 card-2 card-2 card-2 card-2 card-2 card-2 card-2"
+        "card-1 card-1 card-1 card-1 card-1 card-1 card-1 card-1 card-1 card-1 card-1 card-1"
+        "card-2 card-2 card-2 card-2 card-2 card-2 card-2 card-2 card-2 card-2 card-2 card-2"
         "card-3 card-3 card-3 card-3 card-3 card-3 card-3 card-3 card-3 card-3 card-3 card-3"
         "card-4 card-4 card-4 card-4 card-4 card-4 card-4 card-4 card-4 card-4 card-4 card-4"
+        /** Recuadros **/
         "card-5 card-5 card-5 card-5 card-5 card-5 card-5 card-5 card-5 card-5 card-5 card-5"
-        "card-6 card-6 card-6 card-6 card-6 card-6 card-6 card-6 card-6 card-6 card-6 card-6"
-        "card-7 card-7 card-7 card-7 card-7 card-7 card-7 card-7 card-7 card-7 card-7 card-7"
-        "card-8 card-8 card-8 card-8 card-8 card-8 card-8 card-8 card-8 card-8 card-8 card-8"
-        "card-9 card-9 card-9 card-9 card-9 card-9 card-9 card-9 card-9 card-9 card-9 card-9"
+        /** Recuadros **/
+        "card-6 card-6 card-6 card-7 card-7 card-7 card-8 card-8 card-8 card-9 card-9 card-9"
+        "card-6 card-6 card-6 card-7 card-7 card-7 card-8 card-8 card-8 card-9 card-9 card-9"
+        "card-6 card-6 card-6 card-7 card-7 card-7 card-8 card-8 card-8 card-9 card-9 card-9"
+        "card-6 card-6 card-6 card-7 card-7 card-7 card-8 card-8 card-8 card-9 card-9 card-9"
+        /** Recuadros **/
         "card-10 card-10 card-10 card-10 card-10 card-10 card-10 card-10 card-10 card-10 card-10 card-10";
 }
 
 .item-1{
     grid-area: card-1;
     display:flex;
-    justify-content: flex-end;
-    align-items: flex-end;
+    justify-content: center;
 }
 
 .item-2{
     grid-area: card-2;
-    padding-left: 100px;
 }
 
 .item-3{
@@ -46,6 +48,8 @@
     grid-area: card-4;
     background-color: white;
     color: white;
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
 
 .item-5{
@@ -89,13 +93,6 @@
     height: 90px;
 }
 
-#boton_call{
-    position: relative;
-    left:0%;
-    top:50%;
-    transform:translate(0,-50%);
-}
-
 h1{
     padding-top: 10px;
     font-family: 'Roboto', cursive;
@@ -118,4 +115,3 @@ h3{
     display: flex;
     text-align: center;
 }
-
