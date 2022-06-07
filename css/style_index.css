@@ -2,46 +2,75 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', cursive;
+    font-size: 1.1em;
+}
+
+#wsp {
+    height: 25px;
+}
+
+#zoom{
+    height: 80px;  
+}
+
+#course{
+    height: 70px;  
+}
+
+#books{
+    height: 70px;  
+}
+
+#dwl{
+    height: 70px;  
 }
 
 .bandeja{
     border-radius: 20px;
     margin-left: 5%;
     margin-right: 5%;
-    background-image: linear-gradient(#30023c,#510365,#6f0c88);
+    /**background-image: linear-gradient(#30023c,#510365,#6f0c88);**/
+
     display: grid;
-    grid-template: repeat(12,1fr);
+    grid-template-rows: 100px 50px 80px 200px 100px;
     grid-template-areas: 
         "card-1 card-1 card-1 card-1 card-1 card-1 card-1 card-1 card-1 card-1 card-1 card-1"
-        "card-2 card-2 card-2 card-2 card-2 card-2 card-2 card-2 card-2 card-2 card-2 card-2"
+        /**"card-2 card-2 card-2 card-2 card-2 card-2 card-2 card-2 card-2 card-2 card-2 card-2"**/
         "card-3 card-3 card-3 card-3 card-3 card-3 card-3 card-3 card-3 card-3 card-3 card-3"
         "card-4 card-4 card-4 card-4 card-4 card-4 card-4 card-4 card-4 card-4 card-4 card-4"
         /** Recuadros **/
-        "card-5 card-5 card-5 card-5 card-5 card-5 card-5 card-5 card-5 card-5 card-5 card-5"
+        /**"card-5 card-5 card-5 card-5 card-5 card-5 card-5 card-5 card-5 card-5 card-5 card-5"**/
         /** Recuadros **/
-        "card-6 card-6 card-6 card-7 card-7 card-7 card-8 card-8 card-8 card-9 card-9 card-9"
-        "card-6 card-6 card-6 card-7 card-7 card-7 card-8 card-8 card-8 card-9 card-9 card-9"
-        "card-6 card-6 card-6 card-7 card-7 card-7 card-8 card-8 card-8 card-9 card-9 card-9"
         "card-6 card-6 card-6 card-7 card-7 card-7 card-8 card-8 card-8 card-9 card-9 card-9"
         /** Recuadros **/
         "card-10 card-10 card-10 card-10 card-10 card-10 card-10 card-10 card-10 card-10 card-10 card-10";
+        margin-top: 25px;
+    }
+
+body{
+    background-image: url("../src/fondo.jpg"); 
+    size-adjust: 100%;
 }
+
 
 .item-1{
     grid-area: card-1;
-    display:flex;
-    justify-content: center;
+    background-size: auto;
+    text-align: center;
 }
 
+/**
 .item-2{
     grid-area: card-2;
+  
 }
+**/
 
 .item-3{
     grid-area: card-3;
     display: flex;
     justify-content: center;
-
 }
 
 .item-4{
@@ -52,66 +81,63 @@
     padding-bottom: 25px;
 }
 
+/**
 .item-5{
     grid-area: card-5;
     display: flex;
     justify-content: right;   
     color: white;
 }
+**/
+
 
 .item-6{
     grid-area: card-6;
-    height: 150px;
-    color: white;
+  
 }
 
 .item-7{
     grid-area: card-7;
-    height: 150px;
-    color: white;
 }
 
 .item-8{
     grid-area: card-8;
-    height: 150px;
-    color: white;
 }
 
 .item-9{
     grid-area: card-9;
-    height: 150px;
-    color: white;
 }
 
 .item-10{
     grid-area: card-10;
-    background-color: white;
-    color: black;
 }
 
 #logo{
     height: 90px;
 }
 
+
+.item-6,.item-7,.item-8,.item-9{
+    text-align: center;
+    background-color:white
+}
+
 h1{
     padding-top: 10px;
-    font-family: 'Roboto', cursive;
-    color: white;
-    display: flex;
-    text-align: center;
+
 }
 
 h2{
     padding-top: 10px;
-    font-family: 'Roboto', cursive;
     color: black;
-    display: flex;
     text-align: center;
 }
 
 h3{
-    padding-top: 10px;
-    font-family: 'Roboto', cursive;
-    display: flex;
+    padding-top: 10px; 
     text-align: center;
+}
+
+h4{
+    font-size: 0.5em;
 }
