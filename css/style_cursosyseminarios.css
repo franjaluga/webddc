@@ -115,7 +115,7 @@ body{
     grid-area: c1;
     background-image: url("../src/yt.png");
     background-repeat: no-repeat;
-    background-size: 10%;
+    background-size: 200px;
     background-position: center;  
     padding-top: 20px;
     height: 250px;   

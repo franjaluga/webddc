@@ -183,12 +183,13 @@ h2 {
 }
 
 @media (max-width:1439px) and (min-width:1077px){
-
     body{
-        background-size: 480%;
+        background-image: url("../src/fondo10.jpg"); 
+        background-repeat: no-repeat;
+        background-position: center;
     }
-
     
+  
     #logo{
         height: 90px;
     }
