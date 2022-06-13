@@ -16,11 +16,17 @@ body{
     background-repeat: no-repeat;
     background-size: 200%;
     background-position: center;
+    padding-left: 25px;
+    padding-right: 25px;
 }
 
 h2 {
     font-family: sans-serif;
 
+}
+
+p{
+    font-size: 20px;
 }
 
 .encabezado{
@@ -94,7 +100,7 @@ body{
 
 #c1,#c2,#c3{
     padding-top: 35px;
-    padding-bottom: 35px;
+    padding-bottom: 25px;
     padding-left: 35px;
     padding-right: 35px;
 
@@ -103,12 +109,12 @@ body{
     margin-left: 15px;
     background-color: rgba(255, 255, 255, 0.403);
     justify-items: center;
-
 }
+
+
 #c1{
     grid-area: c1;
     padding-top: 20px;
-    height: 250px;   
     text-align: center;
 
 }
@@ -116,17 +122,14 @@ body{
 #c2{
     grid-area: c2;
     padding-top: 20px;
-    height: 250px;   
     text-align: center;
-
 }
 
 
 #c3{
     grid-area: c3;
     padding-top: 20px;
-    height: 250px;   
-    text-align: center;
+      text-align: center;
 
 }
 

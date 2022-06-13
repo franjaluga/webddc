@@ -6,6 +6,10 @@
     font-size: 1.09em;
 }
 
+img :hover{
+    opacity: 1;
+}
+
 body{
     background-image: url("../src/fondo3.jpg"); 
     background-repeat: no-repeat;
