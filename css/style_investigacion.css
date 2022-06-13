@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.09em;
+}
+
+h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.8em; 
+}
+
+body{
+    background-image: url("../src/fondo.jpg"); 
+    background-repeat: no-repeat;
+    background-size: 200%;
+    background-position: center;
+}
+
+h2 {
+    font-family: sans-serif;
+
+}
+
+.encabezado{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    margin-top: 25px;
+    background-color: rgba(255, 255, 255, 0.403);
+}
+
+.caja-boton{
+    margin-top: 25px;
+    margin-left: 45%;
+    width: 160px;
+    height: 40px;
+}
+
+#contacto{
+    text-decoration: none;
+    background-color: #27d246;
+    color:white;
+    font-size: 0.90em;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 12px;
+    font-family: sans-serif;
+}
+
+.teleconsulta{
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.2em; 
+}
+
+#dd{
+    width: 200px;
+}
+
+.bloque_t--titulo{
+    padding-bottom: 15px;
+}
+
+.bloque_t--descripcion{
+    font-size: 20px;
+}
+
+body{
+    background-image: url("../src/fondo3.jpg"); 
+    background-repeat: no-repeat;
+    background-size: 400%;
+}
+
+
+#logo{
+    height: 90px;
+}
+
+.cursosyseminarios{
+    padding-top: 35px;
+    padding-bottom: 35px;
+    padding-left: 35px;
+    padding-right: 35px;     
+
+    display:grid;
+    grid-template-areas:
+    "c1"
+    "c2"
+    "c3";
+}
+
+#c1,#c2,#c3{
+    padding-top: 35px;
+    padding-bottom: 35px;
+    padding-left: 35px;
+    padding-right: 35px;
+
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 15px;
+    background-color: rgba(255, 255, 255, 0.403);
+    justify-items: center;
+
+}
+#c1{
+    grid-area: c1;
+    padding-top: 20px;
+    height: 250px;   
+    text-align: center;
+
+}
+
+#c2{
+    grid-area: c2;
+    padding-top: 20px;
+    height: 250px;   
+    text-align: center;
+
+}
+
+
+#c3{
+    grid-area: c3;
+    padding-top: 20px;
+    height: 250px;   
+    text-align: center;
+
+}
+
